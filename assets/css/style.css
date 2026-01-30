@@ -1400,7 +1400,24 @@ html {
                     right: 20px;
                 }
             }
-              /* --- Contact Form Styles --- */
+              /* --- Contact Section Layout --- */
+            #contact .glass {
+                padding: 60px;
+                max-width: 900px;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .contact-grid {
+                position: relative;
+                z-index: 2;
+                display: grid;
+                grid-template-columns: 1fr 1.5fr;
+                gap: 60px;
+            }
+
+            /* --- Contact Form Styles --- */
             .contact-form {
                 display: flex;
                 flex-direction: column;
@@ -1600,3 +1617,4 @@ html {
             }
         
         
+
