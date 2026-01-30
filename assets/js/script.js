@@ -127,3 +127,4 @@ if (skillCards && skillCards.length) {
         card.style.setProperty('--percent', percent);
     });
 }
+
