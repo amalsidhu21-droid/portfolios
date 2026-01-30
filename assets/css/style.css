@@ -1511,8 +1511,34 @@ html {
             }
 
             @media (max-width: 768px) {
-                .contact-info {
-                    grid-template-columns: 1fr;
+                .contact-grid {
+                    grid-template-columns: 1fr !important;
+                    gap: 30px !important;
+                }
+                
+                #contact .glass {
+                    padding: 40px 20px !important;
+                }
+                
+                #contact .container {
+                    padding: 30px 0 60px !important;
+                }
+                
+                .contact-form {
+                    gap: 15px !important;
+                }
+                
+                .glass-input {
+                    padding: 20px 15px 8px 15px !important;
+                    font-size: 0.95rem !important;
+                }
+                
+                .floating-label {
+                    font-size: 0.85rem !important;
+                }
+                
+                .contact-info h2 {
+                    font-size: 1.5rem !important;
                 }
             }
 
@@ -1572,4 +1598,5 @@ html {
             .services-grid.active .service-card:nth-child(6) {
                 transition-delay: 0.6s;
             }
+        
         
